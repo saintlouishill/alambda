@@ -1,0 +1,150 @@
+﻿<!DOCTYPE HTML>
+
+
+<html>
+<head>
+    <title class="titleclass">Basketball Life</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="ABA/assets/css/main.css" />
+
+    <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+</head>
+    <body class="is-preload">
+        <div id="wrapper" class="fade-in">
+            <header id="header" class="content__section">
+                <h1 class="content__text">ABA Final 8</h1>
+            </header>
+            
+            <div id="intro">
+                
+                <div class="flex-container">
+                    <div>
+                        <p>Sponsor Enrollment Form</p>
+
+                        <form id="signup-form" method="post" action="#">
+                            <input type="email" name="sponsorCompanyName" id="sponsorCompanyName" placeholder="Sponsor Company Name" />
+                            <input type="email" name="email" id="email" placeholder="Email Address" />
+                            <input type="email" name="phoneNumber" id="phoneNumber" placeholder="Phone Number" />
+                            <input type="submit" value="Sign Up" />
+                        </form>
+
+
+                    </div>
+                    <div class="flip-card">
+                        <p>Buys Ticket Now | Portal</p>
+
+
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front wrap">
+                                <img class="imageTickets" src="images/image.jpg" alt="Avatar">
+                            </div>
+
+
+                            <div class="flip-card-back">
+                                <form id="signup-form" method="post" action="#">
+                                    <select name="prices">
+                                        <option value="15">15$</option>
+                                        <option value="10">10$</option>
+                                        <option value="5">5$</option>
+
+                                    </select>
+                                    <select name="gameDate">
+                                        <option value="10">April 10 2019</option>
+                                        <option value="20">April 20 2019$</option>
+                                        <option value="30">April 30 2019</option>
+
+                                    </select>
+                                    <select name="numberOfTickets">
+                                        <option value="1">Single</option>
+                                        <option value="2">Double</option>
+                                        <option value="5">Five</option>
+
+                                    </select>
+
+                                    <input type="submit" value="Check Out!" />
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Header -->
+         
+
+
+        
+
+
+
+            <!-- Main -->
+
+
+            <article class="container-outer">
+                <div class="container-inner">
+                    <section class="post-content">
+                        <section class="post-content1">
+
+                            <div class="imagetext">
+                                <h2>32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham. </h2>
+                            </div>
+                        </section>
+                    </section>
+                </div>
+
+
+
+            </article>
+        </div>
+
+
+        <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+        <script type="text/javascript">
+            var el = $('.sticky-div'),
+                el_top = el.offset().top,
+                el_pos = el.offset().left;
+            $(window).scroll(function () {
+                if (!el.hasClass('fixed') && $(this).scrollTop() > el_top + el.height()) {
+                    el.addClass('fixed');
+                    el.css({
+                        "left": el_pos
+                    })
+                } else if (el.hasClass('fixed') && $(this).scrollTop() <= el_top) {
+                    el.removeClass('fixed');
+                    el.css({
+                        "left": "auto"
+                    })
+                }
+            });
+        </script>
+
+
+        <script>
+            function openCity(cityName) {
+                var i;
+                var x = document.getElementsByClassName("city");
+                for (i = 0; i < x.length; i++) {
+                    x[i].style.display = "none";
+                }
+                document.getElementById(cityName).style.display = "block";
+            }
+        </script>
+
+        <!-- Scripts -->
+        <script src="ABA/assets/js/main.js"></script>
+
+        <script src="ScrollingLettersAnimation/js/imagesloaded.pkgd.min.js"></script>
+        <script src="ScrollingLettersAnimation/js/charming.min.js"></script>
+        <script src="ScrollingLettersAnimation/js/demo2.js"></script>
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/jquery.scrollex.min.js"></script>
+        <script src="assets/js/jquery.scrolly.min.js"></script>
+        <script src="assets/js/browser.min.js"></script>
+        <script src="assets/js/breakpoints.min.js"></script>
+        <script src="assets/js/util.js"></script>
+        <script src="assets/js/main.js"></script>
+
+    </body>
+</html>
